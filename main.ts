@@ -128,10 +128,10 @@ game.onUpdate(function () {
     if (apple.y < 150) {
         landingFlag = 0
     }
-    if (gameOverFlag == 2) {
+    if (gameOverFlag == 1) {
         game.over(false)
     }
-    if (gameOverFlag == 1) {
+    if (false) {
         gameOverFlag += 1
     }
 })
